@@ -1,0 +1,87 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+  
+  
+  .animated input,
+  .animated select,
+  .animated textarea
+  {
+    transition: all .5s ease-out;
+  }     
+  
+  .styled input:focus, 
+  .styled select:focus,
+  .styled textarea:focus
+  {
+    border:0;
+    outline: 2px solid rgb(46, 51, 128); 
+  }
+    
+  
+  .cw
+  {
+    color:white;
+    }
+  
+  .box
+  {
+    width:400px;
+    height:450px;
+    margin:10px;
+    padding:10px;
+  }
+  
+  .big-box
+  {
+    width:1300px;
+    height:530px;
+    margin:50px;
+    background-color:skyblue;
+  }
+  
+  .text-box
+  {
+    width:350px;
+    height:30px;
+    display:block; 
+    margin-bottom:10px;
+    margin-top:5px;
+    padding:5px;
+    font-style:italic;
+    color:rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255); 
+    background-color:rgb(135, 206, 235);
+  }
+  
+  .text
+  {
+    font-style:italic;
+    border-color:rgb(255, 255, 255);
+    background-color:rgb(135, 206, 235); 
+  }
+  
+  .big-textbox
+  {
+    height:150px; 
+  }
+  
+  .mflex
+  {
+    display:flex;
+    justify-content:space-between;
+   
+  } 
+  
+  .dropd-w
+  {
+    width:365px;     
+    border-radius: 5px;
+  }
+  
+  #affil, #comment, #bio
+  {
+    resize: none;
+  }
